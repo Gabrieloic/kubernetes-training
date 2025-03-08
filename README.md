@@ -1,10 +1,18 @@
 ## kubernetes-training
-```bash
-in this repo i will put all the informations and of my kubernertes lab cluster
 
+```bash
+Dans ce repo je mettrai toutes les informations ( installation, exercices, commandes ...etc) du cluster de lab sur kubernetes
 ```
 
 ### ********** installation du cluster ************ ###
 ```bash
 
 # Les commandes
+
+
+
+
+
+
+
+```
