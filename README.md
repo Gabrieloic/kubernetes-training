@@ -9,6 +9,13 @@ Dans ce repo je mettrai toutes les informations ( installation, exercices, comma
 
 # Les commandes
 
+# on creera ca cluste avec un user centos qui aura les droits admin
+    sudo -i
+    useradd centos
+    passwd centos
+# on le rajoute dans le groupe admin wheel
+    usermod -aG wheel centos 
+
     sudo yum -y update
     sudo yum -y install epel-release
     sudo yum -y install git libvirt qemu-kvm virt-install virt-top libguestfs-tools bridge-utils
